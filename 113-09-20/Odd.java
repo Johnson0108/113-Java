@@ -6,10 +6,10 @@ public class Odd {
         var remain = input % 2; 
         
         if(remain == 1) {
-            System.out.printf("%d �O�_��%n", input); 
+            System.out.printf("%d 是奇數%n", input); 
         } 
         else {
-            System.out.printf("%d �O����%n", input); 
+            System.out.printf("%d 不是奇數%n", input); 
         }
     }
 }

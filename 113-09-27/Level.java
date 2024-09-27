@@ -1,9 +1,14 @@
 
+import java.util.Scanner;
 
 public class Level {
     public static void main(String[] args) {
-        var score = 88;
-        var level = '\0'; 
+        int score;
+        char level = '\0'; 
+
+        Scanner input = new Scanner(System.in);
+        System.out.print("請輸入分數:");
+        score = input.nextInt();
         
         if(score >= 90) {
             level = 'A';
