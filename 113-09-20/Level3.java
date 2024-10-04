@@ -11,6 +11,6 @@ public class Level3 {
             case 6     -> 'D'; 
             default    -> 'E';
         };
-        System.out.printf("�o�����šG%c%n", level);
+        System.out.printf("得分等級:%c%n", level);
     }
 }

@@ -16,6 +16,6 @@ public class Level5 {
                 yield message ;
             }
         };
-        System.out.printf("�o�����šG%s%n", level);
+        System.out.printf("得分等級:%c%n", level);
     }
 }
