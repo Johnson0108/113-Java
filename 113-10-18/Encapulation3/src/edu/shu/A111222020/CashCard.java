@@ -1,32 +1,33 @@
+package  edu.shu.A111222020;
 
-class CashCard {
+public class CashCard {
     private String number;
     private int balance;
     private int bonus;
 
-    CashCard(String number, int balance, int bonus) {
+    public CashCard(String number, int balance, int bonus) {
         this.number = number;
         this.balance = balance;
         this.bonus = bonus;
     }
 
-    String getNumber(){
+    public String getNumber(){
         return this.number;
     }
 
-    int getBalance(){
+    public int getBalance(){
         return this.balance;
     }
 
-    int getBonus(){
+    public int getBonus(){
         return this.bonus;
     }
 
-    void setNumber(String number){
+    public void setNumber(String number){
         this.number = number;
     }
 
-    void store(int money){
+    public void store(int money){
         if(money > 0){
             this.balance += money;
             if(money >= 1000){
@@ -38,7 +39,7 @@ class CashCard {
         }
     }
 
-    void charge(int money){
+    public void charge(int money){
         if(money > 0){
             if(money <= this.balance){
                 this.balance -= money;
@@ -52,7 +53,7 @@ class CashCard {
         }
     }
 
-    int exchange(int bonus){
+    public int exchange(int bonus){
         if(bonus > 0){
                 this.bonus -= bonus;
         }

@@ -1,4 +1,6 @@
+package  edu.shu.main;
 import java.util.Scanner;
+import edu.shu.A111222020.*;
 
 public class CardApp {
     public static void main(String[] args) {
