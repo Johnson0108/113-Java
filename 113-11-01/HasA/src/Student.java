@@ -25,6 +25,6 @@ public class Student {
         this.name = name;
     }
     public void printData(){
-        System.out.println("學號: %s, 姓名: %s " + this.studentID);
+        System.out.printf("%s %s ",studentID,  name);
     }
 }
