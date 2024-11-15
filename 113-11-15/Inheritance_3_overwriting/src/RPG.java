@@ -22,5 +22,6 @@ public class RPG {
         System.out.printf("魔法師：(%s, %d, %d)%n", magician.getName(),
                 magician.getLevel(), magician.getBlood());
         magician.fight();
+        magician.cure();
     }
 }
